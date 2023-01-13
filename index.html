@@ -2,23 +2,11 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css">
+    
   </head>
   <body>
+    <button id="new-grid-button"> NEW GRID</button>
     <div id="grid-container"></div>
-    <script>
-
-      //get the container element
-      let container = document.getElementById("grid-container");
-
-      //create a 16x16 grid with divs   
-
-      for(let n = 0;n < 16; n++) {
-        for (let divs = 0;divs < 16; divs++){
-          let div = document.createElement("div");
-          div.className = "grid-item";
-          container.appendChild(div);
-        }
-      }
-    </script> 
+    <script src="app.js"></script>
   </body>
 </html>
